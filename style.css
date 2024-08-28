@@ -1,0 +1,136 @@
+.net-logo{
+    height: 10vh;
+}
+.main-sec{
+    background-image: url(images/IMG_0496.JPG);
+    background-color: aquamarine;
+}
+.inp-bg{
+    border: 1px solid black !important;
+    background-color: #6c6565a6 !important;
+}
+.movie-sec{
+    height: 60vh;
+    background-image: linear-gradient(rgb(1, 1, 39),rgb(9, 1, 17));
+}
+.card-sec{
+    background-image: linear-gradient(rgb(1, 1, 39),rgb(9, 1, 17));
+}
+.card-bg{
+    background-image: linear-gradient(rgb(8, 5, 81),rgb(17, 1, 33));
+}
+.bi-headset-vr{
+    position: relative;
+    top: 48%;
+}
+.car-txt-color{
+    background-image: linear-gradient(102deg, #ff0000, rgb(37 44 131), #000953);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+li::marker{
+    content: "";
+}
+.card-custom-rounded {
+    border-radius: 1.5rem; /* Adjust the border-radius as needed */
+  }
+.image{
+    border-radius: 15%;
+    transition: transform 0.4s ease;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (min-width:768px) {
+    .email{
+        margin-left: 19%;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .gs-btn{
+        margin-left: 36%;
+
+    }
+    
+}
+@media screen and (max-width:471px) {
+    .nav-second{
+        width:125%;;
+
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .nav-second{
+        position: relative;
+        right: 20%;
+        width:140%;;
+
+    }
+    
+}
+@media screen and (max-width:371px) {
+    .nav-second{
+        position: relative;
+        right: 18%;
+        width: 165%;
+    }
+    
+}
+@media screen and (max-width:656px){
+    .m-drop{
+        margin-left: 7%;
+    }
+}
+@media screen and (min-width:1161px) {
+    .d-row{position: relative;
+    right: 6%;
+    }
+}
+@media screen and (max-width:474px) {
+    .d-row{position: relative;
+    left: 10%;
+    }
+}
+@media screen and (max-width:992px){
+    #img5,#img6{
+        display: none;
+    }
+
+}
+@media screen and (max-width:768px){
+    #img4{
+        display: none;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .bi-headset-vr{
+        position: relative;
+        top: 8%;
+    }
+   
+}
+@media screen and (width<=1200px) and (width>=947px) {
+    .bi-emoji-smile-fill{
+        position: relative;
+        top: 39%;
+    }
+}
+@media screen and (max-width:460px) {
+    .net-logo{
+        margin-top: 5%;
+        height: 6vh;
+    }
+    
+}
+@media screen and (max-width:371px) {
+    .nav-col{
+        position: relative;
+        right: 6%;
+    }
+    
+}
